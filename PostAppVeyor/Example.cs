@@ -9,6 +9,12 @@ namespace PostAppVeyor
     static class Example
     {
         private static string _Message = "Mascando Bits";
-        public static string Message { get => _Message; }
+        public static string Message
+        {
+            get
+            {
+                return _Message;
+            }
+        }
     }
 }
