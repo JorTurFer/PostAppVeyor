@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace PostAppVeyor
 {
-    class Program
+    static class Example
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Example.Message);
-        }
+        private static string _Message = "Mascando Bits";
+        public static string Message { get => _Message; }
     }
 }
